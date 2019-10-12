@@ -1,4 +1,4 @@
-* What is it?
+##  What is it?
 
 The Hollasynth four-channel scanning VCA is a version of Jurgen Haible's Interpolating Scanner idea, in 4U Serge-compatible format, complete with a beautiful front panel by Loudest Warning.
 
@@ -6,18 +6,18 @@ It is a four-channel voltage controlled crossfader. As the scan CV is swept from
 
 The gain of each channel is also individually controllable, so the module can be used as a four channel VCA as well. A switch allows the scanning control to be disabled so that only the VCA CV affects channel gain. Finally there are attenuators and initial gain knobs on the front panel.
 
-* What can I do with it?
+##  What can I do with it?
 
  - Crossfade between the wave shapes of a VCO for voltage-controlled morphing, e.g. from sine to saw to triangle to square and back
  - Crossfade between up to four audio sources under voltage control
  - Voltage controlled CV mixing. The inputs and outputs are DC coupled so you can use the module to mix and morph between CV sources
  - Voltage controlled signal switching. By appying stepped CV to the scan input, e.g. from a sequencer, you can switch between signals rather than fading... if you get the CV set up just right!
 
-* How does it work?
+## How does it work?
 
 The scanner contains four linear VCAs, one per channel, based on the LM13700 IC. Each VCA is controlled by the sum of two CVs: the direct VCA CV and the scanning CV. The scan CV is provided by a version Don Tillman's beautiful scanner implementation, used with his kind permission. (But please don't bug him if you have issues with the module!)
 
-* Build notes
+## Build notes
 
 
 
