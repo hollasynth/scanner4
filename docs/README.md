@@ -1,3 +1,5 @@
+# Hollasynth Four Channel Scanning VCA
+
 ##  What is it?
 
 The Hollasynth four-channel scanning VCA is a version of Jurgen Haible's [Interpolating Scanner](http://jhaible.com/legacy/tonline_stuff/jh_ipscan.html) idea, in 4U Serge-compatible format, complete with a beautiful front panel by [Loudest Warning](http://www.loudestwarning.co.uk/portfolio/hollasynth-four-channel-scanning-vca/)
