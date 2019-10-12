@@ -8,6 +8,8 @@ The gain of each channel is also individually controllable, so the module can be
 
 ##  What can I do with it?
 
+Probably more than I can! But try some of these: 
+
  - Crossfade between the wave shapes of a VCO for voltage-controlled morphing, e.g. from sine to saw to triangle to square and back
  - Crossfade between up to four audio sources under voltage control
  - Voltage controlled CV mixing. The inputs and outputs are DC coupled so you can use the module to mix and morph between CV sources
@@ -18,6 +20,9 @@ The gain of each channel is also individually controllable, so the module can be
 The scanner contains four linear VCAs, one per channel, based on the LM13700 IC. Each VCA is controlled by the sum of two CVs: the direct VCA CV and the scanning CV. The scan CV is provided by a version Don Tillman's beautiful scanner implementation, used with his kind permission. (But please don't bug him if you have issues with the module!)
 
 ## Build notes
+
+ - Bill of materials
+ - [Interactive BOM](ibom.html)
 
 
 
