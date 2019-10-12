@@ -49,6 +49,11 @@ Finally I solder short lengths of wire to the banana jacks and connect to the pa
 
 There are two adjustable settings: the CV offset trimming for the VCAs (TR1 - TR4) and the scanner sensitivity (TR5).
 
+To trim the VCA offsets, first unplug any patch cables. Put the switch in VCA position. Turn the input attenuators to zero and the initial gain knobs full clockwise: each VCA will be fully on but receiving 0 signal. Measure the output on channel 1 with a voltmeter and adjust TR1 until the output is as close to 0V as possible. Do the same with channel 2 and TR2, and then the remaining channels.
+
+Alternatively, if you do not have a multimeter, you can trim by ear. Set the switch to VCA position. Turn the input attenuators and initial gain knobs to zero. Send a 50Hz square wave into the CV input of the channel you are trimming, and monitor the audio output. Adjust the trimmer (TR1 for channel 1, etc) until the output is as quiet as possible.
+
+TR5 adjusts the rate at which the scanner fades from one channel to another. This should simply be adjusted to taste.
 
 
 
