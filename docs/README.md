@@ -2,7 +2,7 @@
 
 ##  What is it?
 
-The Hollasynth four-channel scanning VCA is a version of Jurgen Haible's [Interpolating Scanner](http://jhaible.com/legacy/tonline_stuff/jh_ipscan.html) idea, in 4U Serge-compatible format, complete with a beautiful front panel by [Loudest Warning](http://www.loudestwarning.co.uk/portfolio/hollasynth-four-channel-scanning-vca/)
+The Hollasynth four-channel scanning VCA is a version of Jurgen Haible's [Interpolating Scanner](http://jhaible.com/legacy/tonline_stuff/jh_ipscan.html) idea, in 4U Serge-compatible format, complete with a beautiful [front panel by Loudest Warning](http://www.loudestwarning.co.uk/portfolio/hollasynth-four-channel-scanning-vca/)
 
 It is a four-channel voltage controlled crossfader. As the scan CV is swept from 0V to 5V, the mix output fades from channel 1, through a mix of channel 1 and 2, to channel 2, then fades to channel 3 and finally channel 4. In addition to the main mix output, each channel has an individual output. Front panel knobs provide an offset and attenuversion on the scan CV. 
 
@@ -12,8 +12,8 @@ The gain of each channel is also individually controllable, so the module can be
 
 Probably more than I can! But try some of these: 
 
- - Crossfade between the wave shapes of a VCO for voltage-controlled morphing, e.g. from sine to saw to triangle to square and back
- - Crossfade between up to four audio sources under voltage control
+ - Crossfade between the wave shapes of a VCO for voltage-controlled morphing, e.g. from sine to saw to triangle to square and back. [Like this](https://www.instagram.com/p/BirFW7LH1m0). 
+ - Crossfade between up to four audio sources under voltage control [Like this](https://www.instagram.com/p/BjSySMzl3wC). 
  - Voltage controlled CV mixing. The inputs and outputs are DC coupled so you can use the module to mix and morph between CV sources
  - Voltage controlled signal switching. By appying stepped CV to the scan input, e.g. from a sequencer, you can switch between signals rather than fading... if you get the CV set up just right!
 
@@ -25,6 +25,29 @@ The scanner contains four linear VCAs, one per channel, based on the LM13700 IC.
 
  - [Bill of materials](bom.pdf) 
  - [Interactive BOM](ibom.html) to help place the parts (experimental!) 
+
+You don't really need to match the transistors. In principle the thing would work more accurately if the transistors in the core were matched for Vbe, but I have never bothered and all my builds seem to work fine. 
+
+
+### Build process suggestions
+
+Carefully snap the two PCBs apart before you begin.
+
+Place and solder all the 0805 SMD capacitors on the rear of the main PCB first. My build order after that is: diodes, resistors, ferrite beads, IC sockets, ceramic capacitors, transistors, electrolytic capacitors, power connector.
+
+Then I build the panel PCB. **First solder R101**. I have forgotten this component in every build so far. Don't be like me. 
+
+Next I snap in the pots, then mount the PCB to the panel and secure gently with the potentiometer nuts to ensure good alignment before soldering. Then I unmount the panel again and re-read the note on the PCB that suggests hand-wiring would be easier, which I agree with, because I wrote it and because it would. Kids these days. 
+
+Next I solder the header pins. I seat the male pins in the female sockets and assemble the PCB sandwich so that I can be sure the headers all align correctly, then solder while everything is in place. 
+
+The final step is to finish up the panel. I mount all the jacks to the panel, insert LED lenses into the panel holes, and place the LEDs and switch in place on the control PCB without soldering. With the switches I use, the right spacing is achieved with just the tooth-nut between the switch and the panel. I mount the control PCB to the panel again, secure the pots with their nuts, slide the LEDs through so that they are seated in their lenses, and solder.
+
+Finally I solder short lengths of wire to the banana jacks and connect to the pads on the control PCB. Reassemble the PCB sandwich and you're done.
+
+## Setup
+
+There are two adjustable settings: the CV offset trimming for the VCAs (TR1 - TR4) and the scanner sensitivity (TR5).
 
 
 
