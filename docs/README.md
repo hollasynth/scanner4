@@ -21,8 +21,8 @@ The scanner contains four linear VCAs, one per channel, based on the LM13700 IC.
 
 ## Build notes
 
- - Bill of materials
- - [Interactive BOM](ibom.html)
+ - [Bill of materials](bom.pdf) 
+ - [Interactive BOM](ibom.html) to help place the parts (experimental!) 
 
 
 
