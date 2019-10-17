@@ -25,7 +25,9 @@ The scanner contains four linear VCAs, one per channel, based on the LM13700 IC.
 ## Build notes
 
  - [Bill of materials](bom.pdf) 
- - [Interactive BOM](ibom.html) to help place the parts (experimental!) 
+ - [Interactive BOM](ibom.html) to help place the parts (experimental!)
+ - [Schematic -- main PCB](hollasynthscannermain.pdf)
+ - [Schematic -- panel PCB](hollasynthscannerpanelpcb.pdf)
 
 You don't really need to match the transistors. In principle the thing would work more accurately if the transistors in the core were matched for Vbe, but I have never bothered and all my builds seem to work fine. 
 
