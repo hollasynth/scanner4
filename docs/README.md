@@ -15,7 +15,7 @@ Probably more than I can! But try some of these:
  - Crossfade between the wave shapes of a VCO for voltage-controlled morphing, e.g. from sine to saw to triangle to square and back. [Like this](https://www.instagram.com/p/BirFW7LH1m0). 
  - Crossfade between up to four audio sources under voltage control. [Like this](https://www.instagram.com/p/BjSySMzl3wC). 
  - Voltage controlled CV mixing. The inputs and outputs are DC coupled so you can use the module to mix and morph between CV sources
- - Voltage controlled signal switching. By appying stepped CV to the scan input, e.g. from a sequencer, you can switch between signals rather than fading... if you get the CV set up just right!
+ - Voltage controlled signal switching. By appying stepped CV to the scan input, e.g. from a sequencer, you can switch between signals rather than fading... if you get the CV set up just right! [Like this](https://www.instagram.com/p/B3zDKIghS05)
  - Audio Waveshaping. Patch fixed voltages or LFOs or whatever you like into the signal inputs. Send an audio rate 0-5V sawtooth into the scan CV. Use the mix output as am audio signal. [Like this](https://www.instagram.com/p/B0DVsC0BeaG). Or [like this](https://www.instagram.com/p/B0B6jHVB5n4). (Thanks, Loudest Warning!)
 
 ## How does it work?
