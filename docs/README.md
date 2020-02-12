@@ -1,6 +1,6 @@
 # Hollasynth Four Channel Scanning VCA
 
-![Scanner4 photo](LWHollasynthScanner.jpg | width=300)
+![Scanner4 photo](LWHollasynthScanner.jpg)
 
 ##  What is it?
 
