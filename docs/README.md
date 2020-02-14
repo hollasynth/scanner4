@@ -1,5 +1,8 @@
 # Hollasynth Four Channel Scanning VCA
 
+ - [Description](#what-is-it)
+ - [Build documentation](#build-notes)
+ 
 ![Scanner4 photo](LWHollasynthScanner.jpg)
 
 ##  What is it?
