@@ -1,0 +1,83 @@
+| Part                                 | Quantity | Designator                                                                      | note                                           |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Capacitors                           |          |                                                                                 |                                                |
+| 10u                                  |        2 | C2, C4                                                                          | Electrolytic, 25V or higher rating             |
+| 22p                                  |        5 | C15, C16, C17, C18, C19                                                         | Ceramic cap, C0G, 5mm lead spacing             |
+| 100n                                 |       3* | C7, C8, C24                                                                     | Ceramic cap, 5mm lead spacing. C7, C8 optional |
+| 100n 0805 SMD                        |       14 | C1, C3, C5, C6, C9, C10, C11, C12, C13, C14, C20, C21, C22, C23                 | X7R, 25V or higher                             |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Jacks                                |          |                                                                                 |                                                |
+| Black Banana Jack                    |        9 | J1,J2,J3,J4,J5,J6,J7,J8,J9                                                      |                                                |
+| Blue Banana Jack                     |        5 | J10,J11,J12,J13,J14                                                             |                                                |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Ferrites                             |          |                                                                                 |                                                |
+| Ferrite bead                         |        2 | L1, L2                                                                          | Ferrite bead, or omit and use wire link        |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| LEDs                                 |          |                                                                                 |                                                |
+| LED                                  |        4 | LED1, LED2, LED3, LED4                                                          | 3mm lead spacing, high brightness              |
+| LED Lenses                           |        4 |                                                                                 | 5mm lenses to suit your LEDs                   |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Resistors                            |          |                                                                                 | All 1%, 250mW                                  |
+| 100R                                 |        5 | R1, R7, R12, R14, R15                                                           |                                                |
+| 220R                                 |        8 | R5, R19 ,R29 ,R44 ,R60 ,R62 ,R64 ,R66                                           |                                                |
+| 330R                                 |        5 | R16, R17, R45, R46, R47                                                         |                                                |
+| 1k                                   |        2 | R2, R48                                                                         |                                                |
+| 6k8                                  |        1 | R6                                                                              |                                                |
+| 10k                                  |        2 | R57, R58                                                                        |                                                |
+| 11k                                  |        4 | R37, R39, R41, R49                                                              |                                                |
+| 33k                                  |        1 | R9                                                                              |                                                |
+| 51k                                  |        4 | R4, R11, R13, R42                                                               |                                                |
+| 100k                                 |       30 | R3, R8, R18, R22, R23, R24, R25, R28, R30, R31, R32, R33, R34, R35,             |                                                |
+|                                      |          | R36, R38, R40, R43, R50, R51, R52, R53, R54, R55, R56, R59, R61, R63, R65, R101 |                                                |
+| 200k                                 |        1 | R10                                                                             |                                                |
+| 1M                                   |        4 | R20, R21, R26,   R27                                                            |                                                |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Switch                               |          |                                                                                 |                                                |
+| SPST switch                          |        1 | SW1                                                                             | Miniature toggle switch. Can use SPDT          |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Trimmers                             |          |                                                                                 |                                                |
+| 100k trimmer                         |        4 | TR1, TR2, TR3, TR4                                                              | Bourns 3362P style                             |
+| 200R trimmser                        |        1 | TR5                                                                             | Bourns 3362P style                             |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Active components                    |          |                                                                                 |                                                |
+| 1N4148                               |       10 | D1 ,D2 ,D3 ,D4 ,D5 ,D6 ,D7 ,D8 ,D9 ,D10                                         |                                                |
+| 2N3906                               |       13 | Q1, Q2 , Q3 , Q4 , Q5 , Q6 , Q7 , Q8 , Q9 , Q10, Q11, Q12, Q13                  |                                                |
+| TL074                                |        3 | U1, U2, U3                                                                      |                                                |
+| TL072                                |        1 | U4                                                                              |                                                |
+| LM13700N                             |        2 | U5, U6                                                                          |                                                |
+| LM4040-N-5.0                         |        1 | U7                                                                              |                                                |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Potentiometers                       |          |                                                                                 |                                                |
+| 100k linear                          |       14 | VR1, VR2, VR3, VR4, VR5, VR6, VR7, VR8, VR9, VR10, VR11, VR12, VR13, VR14       | 9mm vertical alpha style                       |
+|--------------------------------------+----------+---------------------------------------------------------------------------------+------------------------------------------------|
+| Connectors and headers               |          |                                                                                 |                                                |
+| MTA-156 4 pin                        |        1 | X1                                                                              | Power header                                   |
+| 7 pin 0.1" pin header male           |        1 |                                                                                 |                                                |
+| 7 pin 0.1" pin header female         |        1 |                                                                                 |                                                |
+| 2 pin 0.1" pin header male           |        1 |                                                                                 |                                                |
+| 2 pin 0.1" pin header female         |        1 |                                                                                 |                                                |
+| 5 pin 0.1" pin header male           |        1 |                                                                                 |                                                |
+| 5 pin 0.1" pin header female         |        1 |                                                                                 |                                                |
+| 4 pin 0.1" pin header male           |        3 |                                                                                 |                                                |
+| 4 pin 0.1" pin header female         |        3 |                                                                                 |                                                |
+| 8 pin (4 x 2) 0.1" pin header male   |        1 |                                                                                 |                                                |
+| 8 pin (4 x 2) 0.1" pin header female |        1 |                                                                                 |                                                |
+
+
+* Notes
+Capacitors C7 and C8 provide a bit of slew / low-pass filtering to the
+scan CV. They are optional. Use them if you find that applying stepped
+CV to the scan input results in "popping" on the output. This
+feedthrough should be minimal if the VCAs are trimmed precisely,
+though.
+
+I use X7R ceramics for all the 100n capacitors and C0G for the 22pF ones. If I installed C7 and C8 I would probably use C0G there too.
+
+LEDs: it is important to use high brightness LEDs. The maximum current
+that they will receive is about 0.5mA, and this cannot readily be
+adjusted because it is also the control current for the LM13700
+VCAs. These ones are good: [[https://www.rapidonline.com/truopto-miniature-3mm-leds-64821][Rapid Truopto 3mm pastel LEDs]]
+
+Pin headers: it is cheapest to buy long strips of header and cut them
+to size. The 2x4 header can be made from two single- row 4-position
+headers.
